@@ -1,0 +1,64 @@
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+nav {
+    float: left;
+}
+
+.nav-header {
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    padding: 5.25px;
+    margin-left: -10px;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    width: 70%;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    
+}
+
+.intro-header {
+    background-color: black;
+    height: 45px;
+    margin-right: -10px;
+}
+
+.intro img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    float: right;
+}
+
+.intro p {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.engine-article img {
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
