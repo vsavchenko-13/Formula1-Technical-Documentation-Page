@@ -1,0 +1,195 @@
+body {
+    margin: 10px;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+nav {
+    float: left;
+}
+
+.nav-header {
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    padding: 5.25px;
+    margin-left: -10px;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+}
+
+.subNav-header {
+    padding: 5px;
+    padding-left: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    
+}
+
+.intro-header {
+    background-color: black;
+    height: 45px;
+    margin-right: -10px;
+}
+
+.intro img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    float: right;
+}
+
+.intro p {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.pit-stop {
+    float: right;
+}
+
+.engine-article img {
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+.Aero-sub {
+    width: 95%;
+    position: relative;
+    left: 5%;
+}
+
+h3, h2 {
+    background-color: #FF1801;
+    overflow: hidden;
+    padding: 5px;
+    margin-left: -5px;
+    border: 1px solid;
+    border-radius: 0 10px 0 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    line-height: 60px;
+    
+}
+
+table td:hover {
+    background-color: #ddd;
+}
+
+thead {
+    background-color: #FF1801;
+}
+
+td:first-child, td:nth-child(3) {
+    text-align: center;
+}
+
+table img {
+    height: auto;
+    width: auto;
+    padding-right: 8px;
+}
+
+.ferrari-logo {
+    max-width: 30px;
+    padding-top: 8px;
+}
+
+.mercedes-logo {
+    max-width: 150px;
+    padding-top: 4px;
+}
+
+.ford-logo {
+    max-width: 130px;
+}
+
+.renault-logo {
+    max-width: 150px;
+    padding-top: 5px;
+}
+
+.honda-logo {
+    max-width: 250px;
+}
+
+.cc-logo {
+    max-width: 200px;
+    padding-top: 3px;
+}
+
+.tag-logo {
+    max-width: 100px;
+}
+
+.bmw-logo {
+    max-width: 100px;
+    max-height: 50px;
+    object-fit: cover;
+    padding-top: 2px;
+}
+
+.brm-logo {
+    max-width: 50px;
+}
+
+.alfa-logo {
+    max-width: 100px;
+}
+
+.f1-steering_wheel {
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.fuel {
+    clear: left;
+}
+
+.footer {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+
+.footer-logo {
+    height: 20px;
+    padding-left: 15px;
+}
